@@ -6,6 +6,7 @@
 # file and write a normal .gitignore (build/, *.xcodeproj, .DS_Store).
 *
 !.gitignore
+!README.md
 !docs/
 !docs/**
 
