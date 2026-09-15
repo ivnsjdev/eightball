@@ -1,0 +1,13 @@
+# This repository publishes one thing: the GitHub Pages site in docs/, which serves
+# 8 Ball's privacy policy and support page. The app's source is deliberately not
+# tracked here — the repo is public, and the pages need none of it.
+#
+# So: ignore everything, then add docs/ back. To version the source too, delete this
+# file and write a normal .gitignore (build/, *.xcodeproj, .DS_Store).
+*
+!.gitignore
+!docs/
+!docs/**
+
+# Finder litter, which would otherwise be published alongside the pages.
+.DS_Store
